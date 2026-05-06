@@ -1,0 +1,168 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Recommended",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ001",
+                    "name": "Margherita",
+                    "category": "Veg Pizza",
+                    "description": "Classic Margherita with mozzarella cheese and tomato sauce.",
+                    "imageId": "https://images.pexels.com/photos/1435908/pexels-photo-1435908.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 25000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ002",
+                    "name": "Pepperoni Pizza",
+                    "category": "Non-Veg Pizza",
+                    "description": "Pepperoni, mozzarella cheese on a crispy crust.",
+                    "imageId": "https://images.pexels.com/photos/1580464/pexels-photo-1580464.jpeg",
+                    "inStock": 1,
+                    "isVeg": 0,
+                    "defaultPrice": 35000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ003",
+                    "name": "BBQ Chicken Pizza",
+                    "category": "Non-Veg Pizza",
+                    "description": "Grilled chicken, BBQ sauce, and mozzarella cheese.",
+                    "imageId": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+                    "inStock": 1,
+                    "isVeg": 0,
+                    "defaultPrice": 40000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ004",
+                    "name": "Overloaded Veggies",
+                    "category": "Veg Pizza",
+                    "description": "Capsicum, onion, corn, tomato, jalapeno, olives.",
+                    "imageId": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 38000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ005",
+                    "name": "Hawaiian Pizza",
+                    "category": "Non-Veg Pizza",
+                    "description": "Ham, pineapple, and mozzarella cheese.",
+                    "imageId": "https://images.pexels.com/photos/723999/pexels-photo-723999.jpeg",
+                    "inStock": 1,
+                    "isVeg": 0,
+                    "defaultPrice": 42000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ006",
+                    "name": "Veggie Supreme",
+                    "category": "Veg Pizza",
+                    "description": "Tomatoes, olives, capsicum, onion, cheese.",
+                    "imageId": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 36000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ007",
+                    "name": "Four Cheese Pizza",
+                    "category": "Veg Pizza",
+                    "description": "Mozzarella, cheddar, parmesan, feta.",
+                    "imageId": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 39000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ008",
+                    "name": "Mexican Green Wave",
+                    "category": "Veg Pizza",
+                    "description": "Jalapenos, olives, corn, capsicum, cheese.",
+                    "imageId": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 37000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ009",
+                    "name": "Chicago Deep Dish",
+                    "category": "Non-Veg Pizza",
+                    "description": "Thick crust pizza with beef & cheese.",
+                    "imageId": "https://images.pexels.com/photos/159688/pizza-cheese-pizza-slice-pepperoni-159688.jpeg",
+                    "inStock": 1,
+                    "isVeg": 0,
+                    "defaultPrice": 45000
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "PZ010",
+                    "name": "Neapolitan Pizza",
+                    "category": "Veg Pizza",
+                    "description": "Thin crust pizza with fresh tomatoes & basil.",
+                    "imageId": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "defaultPrice": 40000
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
