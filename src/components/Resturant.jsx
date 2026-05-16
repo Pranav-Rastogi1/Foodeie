@@ -13,7 +13,7 @@ const Resturant = () => {
             const newSwiggyApi="https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=18.5211&lng=73.8502&carousel=true&third_party_vendor=1"
 
 
-            const response =await fetch(proxyServer+newSwiggyApi);
+            const response =await fetch(proxyServer+swiggyApi);
             const data=await response.json();
             // console.log(data);
             // setRestData(data);

@@ -6,6 +6,7 @@ const RestaurantMenu = () => {
     let {id} = useParams();
     // console.log(id);
     const [RestData,setRestData]=useState([]);
+    const [selected,setSelected]=useState(null);
     useEffect(()=>{
             async function fetchData(){
     
@@ -24,11 +25,17 @@ const RestaurantMenu = () => {
 
         console.log(RestData);
   return (
+    <>
+        <div className='w-[80%] mt-20 mb-10'>
+          <button className={`text-2xl py-2 px-6 mr-2 border rounded-2xl ${ selected === 'veg' ? 'bg-green-500 text-white' : 'bg-white text-black' } `} onClick={()=>setSelected(selected==='veg'?null:'veg')}>Veg</button>
+          <button className={`text-2xl py-2 px-6 border rounded-2xl ${ selected === 'non-veg' ? 'bg-red-500 text-white' : 'bg-white text-black' } `} onClick={()=>setSelected(selected==='non-veg'?null:'non-veg')}>Non-veg</button>
+        </div>
     <div className='w-[80%] mx-auto'>
         {
-            RestData?.map((item)=><MenuCard key={item?.card?.card?.title} item={item?.card?.card}/>)
+            RestData?.map((item)=><MenuCard key={item?.card?.card?.title} item={item?.card?.card} foodselected={selected}></MenuCard>)
         }
     </div>
+    </>
   )
 }
 
